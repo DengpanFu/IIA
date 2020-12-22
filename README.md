@@ -10,15 +10,15 @@ The repository is for our TIP paper [Improving Person Re-Identification With Ite
 ## Extracted Features
 The MGN features we used can be download at [MGN](https://drive.google.com/drive/folders/1NaWkKzsvL_LSx-j5eoZp71l3v9i64ek1?usp=sharing).
 
-## How to run
-Please follow the usage of our demo.py script. If you download our extracted features, you may run like the following:
+## How to use
+Please follow the usage of our demo.py script. If you have downloaded our extracted features, you may run like the following:
 ```shell
 ### online 
 python demo.py --dname market --fpath mgn_market.pkl
 ### offline
 python demo.py --dname market --fpath mgn_market.pkl --off
 ```
-This is the IIA_bas and will give 93.73 mAP and 89.60 mAP for Market-1501 and DukeMTMC respectively, which is slightly higher than paper reported.
+This(IIA_bas) will give 93.73 mAP and 89.60 mAP for Market-1501 and DukeMTMC respectively, which is slightly higher than paper reported.
 
 ## Citation
 If you find this code useful for your research, please cite our paper.
