@@ -8,7 +8,7 @@ The repository is for our TIP paper [Improving Person Re-Identification With Ite
 - torch >= 1.0
 
 ## Extracted Features
-The MGN features we used can be download at [MGN](https://drive.google.com/drive/folders/1NaWkKzsvL_LSx-j5eoZp71l3v9i64ek1?usp=sharing)
+The MGN features we used can be download at [MGN](https://drive.google.com/drive/folders/1NaWkKzsvL_LSx-j5eoZp71l3v9i64ek1?usp=sharing).
 
 ## How to run
 Please follow the usage of our demo.py script. If you download our extracted features, you may run like the following:
@@ -20,7 +20,7 @@ python demo.py --dname market --fpath mgn_market.pkl --off
 ```
 
 ## Citation
-If you find this code useful for your research, please cite our paper
+If you find this code useful for your research, please cite our paper.
 ```
 @article{fu2020improving,
   title={Improving Person Re-Identification With Iterative Impression Aggregation},
