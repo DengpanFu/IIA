@@ -1,0 +1,13 @@
+.idea
+__pycache__
+.DS_Store
+.vscode
+*.so
+.ipynb_checkpoints
+*_cy.c
+pre_models
+feats
+/logs/*
+/datasets/*
+run*.sh
+scripts
